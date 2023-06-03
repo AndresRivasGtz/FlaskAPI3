@@ -136,13 +136,13 @@ def lector():
             letra = obtener_cadena(indx)
             cadena += letra
 
-        jeyson = {"res": cadena}
+        jeyson = {"placa": cadena}
 
         jeyson = json.dumps(jeyson)
 
         return jeyson
     else:
-        jeyson = {"res": "N/A"}
+        jeyson = {"placa": "N/A"}
 
         jeyson = json.dumps(jeyson)
 
